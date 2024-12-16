@@ -1,0 +1,188 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+:root {
+    --main-color: #1C1C1C;
+    --light-color: #f0f3f2;
+    --shadow: rgba(145, 158, 171, .2) 0px 2px 4px -1px, rgba(145, 158, 171, .14) 0px 4px 5px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+    --font-family:  "Inter", sans-serif;
+    --second-color: #32BCA3;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family) !important;
+  }
+  .secondary-color{
+  background-color: var(--second-color) !important;
+  }
+  .bgMain{
+    background-color:  var(--main-color) !important;
+  }
+ 
+.patern{
+  height: 10vh !important;
+}  
+
+.topPatern{
+  height: 45vh!important;
+  width: 100% !important;
+  scale: 2.0;
+  position: absolute;
+  z-index: 1;
+  top: 16%;
+  left: -14%;
+}
+.bottomPatern{
+  height: 45vh!important;
+  width: 100% !important;
+  scale: 1.5;
+  position: absolute;
+  z-index: 1;
+  left: -10%;
+  bottom: 2%;
+}
+.container{
+  position: relative !important;
+  height: 100vh !important;
+}
+.text{
+  position: absolute !important;
+  top: 20%;
+  left: 20%;
+  z-index: 2;
+  width: 70% !important;
+  font-size: 64px;
+  line-height: 70px;
+ font-family: var(--font-family);
+}
+.span{
+  font-family: "Karla", sans-serif !important;
+  font-size: 90px;
+}
+
+.basicTops {
+  display: flex;
+  color: #f0f3f2;
+  align-items: center;
+  justify-content: space-between;
+}
+.basicTops .top3,
+.basicTops .top2{
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: #32bca311 1px solid;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  padding: 4px;
+  background-color: #32bca35c;
+  position: relative;
+}
+.basicTops .top1{
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: #32bca3 1px solid;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  padding: 4px;
+  background-color: #32bca3;
+  position: relative;
+}
+.basicTops .top1::after{
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 1.5px;
+  left: 16px ;
+  top: -1px;
+  background-color: #32bca36c;
+  border-radius: 16px;
+}
+.basicTops .top2::before{
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 1.5px;
+  left: 16px ;
+  top: -1px;
+  background-color: #26c9ab65;
+  border-radius: 16px;
+}
+.basicUps{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #26c9ab7d;
+  font-family: var(--font-family);
+  font-weight: 250;
+  font-size: 16px;
+  
+}
+.basicUps .basicInfo{
+  color: #26c9ab;
+  
+}
+
+.label{
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.553);
+}
+/* button */
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.buton{
+  font-size: 16px;
+  border:rgba(145, 158, 171, 0.288) solid 1px;
+  outline:rgba(145, 158, 171, .12);
+  background-color: #26c9ab;
+  border-radius: 100px;
+  width: 90% !important;
+  padding-block: 10px;
+  font-family: var(--font-family);
+}
+.choiceButton{
+  font-size: 16px;
+  color: rgba(15, 14, 14, 0.45);
+  font-weight: 400;
+  border:#26c9ab7d solid 1px;
+  outline:#26c9ab71;
+  background-color: var(--light-color);
+  border-radius: 100px;
+  width: 50%;
+  padding-inline: 30px;
+  padding-block: 14px;
+  font-family: var(--font-family);
+}
+.choiceButton {
+  position: relative;
+}
+.choiceButton::after{
+  content: 'Learner';
+  position: absolute;
+  background-color: #26c9ab;
+  color: white;
+  top: 7px;
+  left: 10px;
+  padding-inline: 20px;
+  padding-block: 8px;
+  border-radius: 30px;
+}
+.label2{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.833);
+}

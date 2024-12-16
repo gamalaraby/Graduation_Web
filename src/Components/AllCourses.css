@@ -1,0 +1,91 @@
+.all-courses {
+    background-color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .headerCourse {
+    padding: 0 100px 0 0;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  
+  .headerCourse h1 {
+    font-size: 24px;
+  }
+  
+  .headerCourse select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .courses-grid {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .course-card {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ddd;
+    width: 90%;
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .course-details {
+    flex: 1;
+  }
+  
+  .course-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .course-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .course-price {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination span {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .pagination span:hover {
+    background: #f0f0f0;
+  }

@@ -1,13 +1,89 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --main-color: #1C1C1C;
+  --light-color: #f0f3f2;
+  --shadow: rgba(145, 158, 171, .2) 0px 2px 4px -1px, rgba(145, 158, 171, .14) 0px 4px 5px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+  --font-family: 'Encode Sans Expanded', sans-serif;
+  --second-color: #32BCA3;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family) !important;
+}
+.secondary-color{
+color: var(--second-color) !important;
+}
+.bg-main{
+  background-color:  var(--main-color) !important;
+}
+
+.tops {
+  display: flex;
+  color: #f0f3f2;
+  align-items: center;
+  justify-content: space-between;
+}
+.tops .top1,
+.tops .top2{
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: #32bca311 1px solid;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  padding: 4px;
+  background-color: #32bca35c;
+  position: relative;
+}
+.tops .top3{
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: #32bca3 1px solid;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  padding: 4px;
+  background-color: #32bca3;
+  position: relative;
+}
+.tops .top1::after{
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 1.5px;
+  left: 16px ;
+  top: -1px;
+  background-color: #32bca36d;
+  border-radius: 16px;
+}
+.tops .top2::before{
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 1.5px;
+  left: 16px ;
+  top: -1px;
+  background-color: #26c9ab;
+  border-radius: 16px;
+}
+.ups{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #26c9ab7d;
+  font-family: var(--font-family);
+  font-weight: 250;
+  font-size: 16px;
+  
+}
+.ups .loginInfo{
+  color: #26c9ab;
+  
 }

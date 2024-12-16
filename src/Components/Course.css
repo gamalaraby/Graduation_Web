@@ -1,0 +1,43 @@
+.Course {
+    padding: 80px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .header-course {
+    font-size: 25px;
+    padding: 20px;    
+    background-color: #ffffff;
+    color: #000;
+
+
+  }
+  .header-pra{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+  }
+  .header-pra p{
+    font-size: 20px;
+    color: #7e7d7d;
+    width: 548px;
+  }
+  
+  .categories button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .more-courses {
+    margin: 20px;
+    padding: 10px 20px;
+    border: 1px solid #194e86;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 20px;
+  }
