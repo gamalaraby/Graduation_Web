@@ -1,55 +1,66 @@
-.hero-section {
-    display: flex;
-    padding: 40px;
-    background-color: #1a1a1a;
-    color: white;
-  }
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
   
   .hero-content {
-    max-width:800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+   font-weight: 500;
+   text-align: center;
+   font-size: 52px !important;
+  margin-bottom: 20px;
+  width: 100%;
+  font-family: "Plus Jakarta Sans", serif;
   }
   
   .hero-content p {
-    font-size: 1.7rem;
-    margin-bottom: 20px;
+    font-size: 16px !important;
+    margin-bottom: 16px;
+    text-align: start !important;
+    color: #f4eeeeac;
   }
   
   .search-bar {
-    height: 70px;
+    height: 46px;
+    border-radius: 20% !important;
     display: flex;
-    margin-bottom: 20px;
+    margin-top: 10%;
+    margin-bottom: 6px !important;
+    width: 100%;
   }
   
   .search-bar input {
-    padding: 10px;
-    flex: 1;
-    border: none;
-    border-radius: 50px  0 0px;
+    border: none; 
+    width: 100%;
+   
   }
   
   .search-bar button {
-    padding: 10px 20px;
     border: none;
     background-color: #00ffb3;
     color: black;
-    border-radius: 0 0 50px;
     cursor: pointer;
   }
   
   .popular-topics {
-    font-size: 0.9rem;
-    color: #aaaaaa;
+    font-size: 12px !important;
+    margin-top: 0px !important;
+    font-weight: 400;
+    width: 70%;
+    text-align: start !important;
   }
   
-  .hero-image img{
-    height: 600px;
-    margin-right: -300px;
-  }
-  .hero-image{
-    margin-right: -300px;
-  }
+  
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+   

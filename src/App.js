@@ -12,13 +12,19 @@ import SignIn from "./ComponentsReem/SignIn/SignIn";
 import Login from "./ComponentsReem/Login/Login"
 import Footer from "./ComponentsReem/Footer/Footer"
 import ContactInfo from "./ComponentsReem/ContactInfo/ContactInfo";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, createBrowserRouter, Navigate } from "react-router-dom";
 import "./App.css";
+import Layout from "./Components/Layout/Layout";
 
 function App() {
+  const route = createBrowserRouter([
+    {path: '',element: <Layout/>, children:[
+      {path: '',element :<Navigate to={'herosection'}/>}
+    ]}
+  ])
   return (
     <div>
-    <Router>
+    {/* <Router>
       <div className="App">
       <Header/>
         <Routes>
@@ -32,14 +38,14 @@ function App() {
 
         </Routes>
       </div>
-    </Router>
+    </Router> */}
+    <HeroSection/>
+    {/* <AboutUs /> */}
+   
+   
     
-    <AboutUs />
-    <Authors/>
-    <Course/>
-    <SpecialFeatures/>
-    <StartCourses/>
-    <Footer/>
+    {/* <StartCourses/> */}
+    {/* <Footer/> */}
     </div>
   );
 }

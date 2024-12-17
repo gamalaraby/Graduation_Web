@@ -1,10 +1,12 @@
 import React from 'react';
 import AboutImage from "./image 111.png"
 import './AboutUs.css';
+import SpecialFeatures from './SpecialFeatures';
 
 const AboutUs = () => {
     return (
-        <div className="about-us-container">
+        <>
+         <div className="about-us-container">
             <div className="about-text">
                 <h3>About Us</h3>
                 <h1>We Help Grow Student Careers</h1>
@@ -29,6 +31,10 @@ const AboutUs = () => {
                 </div>
             </div>
         </div>
+        <SpecialFeatures/>
+        </>
+       
+        
     );
 };
 

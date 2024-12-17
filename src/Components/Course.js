@@ -24,7 +24,7 @@ function Course() {
           <button>Back-End</button>
           <button>IOT</button>
         </nav>
-      <CourseList />
+      {/* <CourseList /> */}
       <footer>
         <button className="more-courses">More Courses</button>
       </footer>

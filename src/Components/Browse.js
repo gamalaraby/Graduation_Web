@@ -18,7 +18,7 @@ function Browse() {
       <p className="popular-topics">Popular : UI Design, UX Research, Android, C++</p>
     </section>
     <AllCourses/>
-    <FooterPage/>
+    {/* <FooterPage/> */}
     </div>
   );
 }

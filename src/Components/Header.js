@@ -14,6 +14,7 @@ function Header() {
         <Link to="/TeachOnEd">Teach on Edtech</Link>
         <Link to="#">About Us</Link>
       </nav>
+      {/* toggler */}
       <div className="auth-buttons">
         <Link to="/SignIn"><button className="sign-in">Sign In</button></Link>
         <Link to="/SignUp"><button className="sign-up">Sign Up</button></Link>

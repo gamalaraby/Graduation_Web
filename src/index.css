@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --main-color: #1C1C1C;
   --light-color: #f0f3f2;
   --shadow: rgba(145, 158, 171, .2) 0px 2px 4px -1px, rgba(145, 158, 171, .14) 0px 4px 5px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
@@ -37,7 +37,7 @@ color: var(--second-color) !important;
   height: 18px;
   padding: 4px;
   background-color: #32bca35c;
-  position: relative;
+  position: fixed;
 }
 .tops .top3{
   font-size: 8px;
@@ -51,7 +51,7 @@ color: var(--second-color) !important;
   height: 18px;
   padding: 4px;
   background-color: #32bca3;
-  position: relative;
+  position: fixed;
 }
 .tops .top1::after{
   content: "";
@@ -86,4 +86,4 @@ color: var(--second-color) !important;
 .ups .loginInfo{
   color: #26c9ab;
   
-}
+} */

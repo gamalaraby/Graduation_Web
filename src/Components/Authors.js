@@ -22,9 +22,9 @@ const AuthorCard = ({ name, courses, price, specialty, image }) => (
 );
 
 const Authors = () => (
-    <div className="authors-container">
+    <div className="authors-container bgcc ">
         <h2>Meet Our Authors</h2>
-        <p>Our authors are so good that they will teach you all you need to know to advance your career in the technology field, even if you have zero experience.</p>
+        <p className=''>Our authors are so good that they will teach you all you need to know to advance your career in the technology field, even if you have zero experience.</p>
         <div className="authors-grid">
             {authors.map((author) => (
                 <AuthorCard key={author.id} {...author} />
